@@ -1,128 +1,1831 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
-}
-
-body{
+.nossa-histria-cpia {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
-    height: 100vh;
-}
-
-.btn{
-    padding: 25px 60px;
-    display: inline;
-    background-color: rgb(122, 0, 28);
-    border-radius: 20px;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.5s;
+  }
+  
+  .nossa-histria-cpia .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1629px;
+    position: relative;
+  }
+  
+  .nossa-histria-cpia .overlap {
     position: absolute;
-    top: 20%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.btn:hover{
-    background-color: #93221F;
-}
-
-.modal-container{
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+    width: 1440px;
+    height: 114px;
     top: 0;
     left: 0;
-    background-color: #0000004b;
-    z-index: 999;
-    align-items: center;
-    justify-content: center;
-    display: none;
-}
-
-.modal{
-    width: 60%;
-    min-width:400px;
-    min-height: 200px;
-    background-color: #ffffff62;
-    backdrop-filter: blur(10px);
-    padding: 50px;
-    border-radius: 10px;
-}
-
-.fechar{
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: none;
-    background-color: #ff0000;
-    color: #fff;
-    font-weight: 700;
-    font-size: 14pt;
-    cursor: pointer;
-}
-
-.modal h1{
-    margin-bottom: 20px;
-}
-
-@keyframes animate-modal {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, 0);
-    }
-
-    to{
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-.modal-container.mostrar{
-    display: flex;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
-}
-
-body{
-    width: 100%;
-    height: 100vh;
-}
-
-.btn-bd-primary {
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: var(--bd-violet-bg);
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
-    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
-    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+    background-image: url(./img/rectangle-2.svg);
+    background-size: 100% 100%;
   }
+  
+  .nossa-histria-cpia .logo {
+    position: absolute;
+    width: 172px;
+    height: 78px;
+    top: 3px;
+    left: 603px;
+  }
+  
+  .nossa-histria-cpia .overlap-group {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    top: 0;
+    left: 0;
+    background-color: #93221f;
+    border-radius: 39.2px;
+  }
+  
+  .nossa-histria-cpia .line {
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    top: 36px;
+    left: 13px;
+  }
+  
+  .nossa-histria-cpia .img {
+    position: absolute;
+    width: 2px;
+    height: 9px;
+    top: 36px;
+    left: 33px;
+  }
+  
+  .nossa-histria-cpia .line-2 {
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    top: 33px;
+    left: 48px;
+  }
+  
+  .nossa-histria-cpia .line-3 {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: 36px;
+    left: 53px;
+  }
+  
+  .nossa-histria-cpia .line-4 {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    top: 32px;
+    left: 18px;
+  }
+  
+  .nossa-histria-cpia .line-5 {
+    position: absolute;
+    width: 2px;
+    height: 29px;
+    top: 24px;
+    left: 23px;
+  }
+  
+  .nossa-histria-cpia .line-6 {
+    position: absolute;
+    width: 2px;
+    height: 27px;
+    top: 26px;
+    left: 38px;
+  }
+  
+  .nossa-histria-cpia .line-7 {
+    position: absolute;
+    width: 2px;
+    height: 29px;
+    top: 24px;
+    left: 62px;
+  }
+  
+  .nossa-histria-cpia .line-8 {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    top: 29px;
+    left: 28px;
+  }
+  
+  .nossa-histria-cpia .line-9 {
+    position: absolute;
+    width: 2px;
+    height: 17px;
+    top: 31px;
+    left: 43px;
+  }
+  
+  .nossa-histria-cpia .line-10 {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    top: 29px;
+    left: 58px;
+  }
+  
+  .nossa-histria-cpia .overlap-2 {
+    position: absolute;
+    width: 85px;
+    height: 61px;
+    top: -1px;
+    left: 87px;
+  }
+  
+  .nossa-histria-cpia .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #93221f;
+    font-size: 29.4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-2 {
+    position: absolute;
+    width: 85px;
+    top: 34px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #93221f;
+    font-size: 29.4px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .nossa-histria-cpia .line-11 {
+    position: absolute;
+    width: 29px;
+    height: 2px;
+    top: 38px;
+    left: 2px;
+  }
+  
+  .nossa-histria-cpia .line-12 {
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    top: 38px;
+    left: 58px;
+  }
+  
+  .nossa-histria-cpia .vector {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 11px;
+    left: 60px;
+  }
+  
+  .nossa-histria-cpia .vector-2 {
+    top: 36px;
+    left: 36px;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .nossa-histria-cpia .line-13 {
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    top: 17px;
+    left: 61px;
+  }
+  
+  .nossa-histria-cpia .vector-3 {
+    top: 68px;
+    left: 148px;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .nossa-histria-cpia .perfil {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 2px;
+    left: 1340px;
+  }
+  
+  .nossa-histria-cpia .menu {
+    position: absolute;
+    width: 56px;
+    height: 28px;
+    top: 28px;
+    left: 45px;
+  }
+  
+  .nossa-histria-cpia .line-14 {
+    position: absolute;
+    width: 56px;
+    height: 6px;
+    top: 22px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .line-15 {
+    position: absolute;
+    width: 56px;
+    height: 6px;
+    top: -6px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .line-16 {
+    position: absolute;
+    width: 56px;
+    height: 6px;
+    top: 8px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .overlap-3 {
+    position: absolute;
+    width: 1180px;
+    height: 1444px;
+    top: 136px;
+    left: 148px;
+  }
+  
+  .nossa-histria-cpia .overlap-4 {
+    position: absolute;
+    width: 1180px;
+    height: 1405px;
+    top: 39px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .overlap-5 {
+    position: absolute;
+    width: 281px;
+    height: 1405px;
+    top: 0;
+    left: 899px;
+  }
+  
+  .nossa-histria-cpia .rectangle {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 251px;
+    left: 103px;
+    background-color: #ff0600;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-2 {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    top: 263px;
+    left: 103px;
+    background-color: #e70000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-3 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 275px;
+    left: 103px;
+  }
+  
+  .nossa-histria-cpia .rectangle-4 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 287px;
+    left: 103px;
+    background-color: #d00000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-5 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 299px;
+    left: 103px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-6 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 311px;
+    left: 103px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-7 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 323px;
+    left: 103px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-8 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 335px;
+    left: 103px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-9 {
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    top: 359px;
+    left: 103px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-10 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 347px;
+    left: 103px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-11 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 371px;
+    left: 104px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-12 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 383px;
+    left: 103px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-13 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 395px;
+    left: 104px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-14 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 407px;
+    left: 103px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-15 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 419px;
+    left: 104px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-16 {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 599px;
+    left: 105px;
+    background-color: #ff0600;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-17 {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    top: 587px;
+    left: 105px;
+    background-color: #e70000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-18 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 575px;
+    left: 105px;
+  }
+  
+  .nossa-histria-cpia .rectangle-19 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 563px;
+    left: 105px;
+    background-color: #d00000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-20 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 551px;
+    left: 105px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-21 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 539px;
+    left: 105px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-22 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 527px;
+    left: 105px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-23 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 515px;
+    left: 105px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-24 {
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    top: 491px;
+    left: 105px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-25 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 503px;
+    left: 105px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-26 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 479px;
+    left: 106px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-27 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 467px;
+    left: 105px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-28 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 455px;
+    left: 106px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-29 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 443px;
+    left: 105px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-30 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 431px;
+    left: 106px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-31 {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 611px;
+    left: 111px;
+    background-color: #ff0600;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-32 {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    top: 623px;
+    left: 111px;
+    background-color: #e70000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-33 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 635px;
+    left: 111px;
+  }
+  
+  .nossa-histria-cpia .rectangle-34 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 647px;
+    left: 111px;
+    background-color: #d00000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-35 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 659px;
+    left: 111px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-36 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 671px;
+    left: 111px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-37 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 683px;
+    left: 111px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-38 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 695px;
+    left: 111px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-39 {
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    top: 719px;
+    left: 111px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-40 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 707px;
+    left: 111px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-41 {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 959px;
+    left: 103px;
+    background-color: #ff0600;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-42 {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    top: 947px;
+    left: 103px;
+    background-color: #e70000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-43 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 935px;
+    left: 103px;
+  }
+  
+  .nossa-histria-cpia .rectangle-44 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 923px;
+    left: 103px;
+    background-color: #d00000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-45 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 911px;
+    left: 103px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-46 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 899px;
+    left: 103px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-47 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 887px;
+    left: 103px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-48 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 875px;
+    left: 103px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-49 {
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    top: 851px;
+    left: 103px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-50 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 863px;
+    left: 103px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-51 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 839px;
+    left: 104px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-52 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 827px;
+    left: 103px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-53 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 815px;
+    left: 104px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-54 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 803px;
+    left: 103px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-55 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 791px;
+    left: 104px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-56 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 731px;
+    left: 112px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-57 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 743px;
+    left: 111px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-58 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 755px;
+    left: 112px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-59 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 767px;
+    left: 111px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-60 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 779px;
+    left: 112px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-61 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 983px;
+    left: 104px;
+    background-color: #d00000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-62 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 995px;
+    left: 104px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-63 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 1007px;
+    left: 104px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-64 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 1019px;
+    left: 104px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-65 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 1031px;
+    left: 104px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-66 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 1055px;
+    left: 104px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-67 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 1043px;
+    left: 104px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-68 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 1067px;
+    left: 105px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-69 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 1079px;
+    left: 104px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-70 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 1091px;
+    left: 105px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-71 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 1103px;
+    left: 104px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-72 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 1115px;
+    left: 105px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-73 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 1259px;
+    left: 106px;
+    background-color: #d00000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-74 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 1247px;
+    left: 106px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-75 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 1235px;
+    left: 106px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-76 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 1223px;
+    left: 106px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-77 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 1211px;
+    left: 106px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-78 {
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    top: 1187px;
+    left: 106px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-79 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 1199px;
+    left: 106px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-80 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 1175px;
+    left: 107px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-81 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 1271px;
+    left: 106px;
+  }
+  
+  .nossa-histria-cpia .rectangle-82 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 1163px;
+    left: 106px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-83 {
+    position: absolute;
+    width: 140px;
+    height: 10px;
+    top: 1151px;
+    left: 107px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-84 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 1139px;
+    left: 106px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-85 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 1127px;
+    left: 107px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-86 {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    top: 971px;
+    left: 104px;
+  }
+  
+  .nossa-histria-cpia .rectangle-87 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 1295px;
+    left: 103px;
+    background-color: #d00000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-88 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 1307px;
+    left: 103px;
+    background-color: #b80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-89 {
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    top: 1319px;
+    left: 103px;
+    background-color: #a80000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-90 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 1331px;
+    left: 103px;
+    background-color: #ac0000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-91 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 1343px;
+    left: 103px;
+    background-color: #a10000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-92 {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    top: 1367px;
+    left: 103px;
+    background-color: #770000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-93 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 1355px;
+    left: 103px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-94 {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 1379px;
+    left: 104px;
+    background-color: #910000;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-95 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 1283px;
+    left: 103px;
+  }
+  
+  .nossa-histria-cpia .rectangle-96 {
+    position: absolute;
+    width: 50px;
+    height: 1188px;
+    top: 217px;
+    left: 103px;
+    background-color: #93221f;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .ellipse {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .rectangle-97 {
+    position: absolute;
+    width: 25px;
+    height: 1182px;
+    top: 208px;
+    left: 116px;
+    background-color: #fbecdc;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .ellipse-2 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 15px;
+    left: 14px;
+    background-color: #fbecdc;
+    border-radius: 110px;
+  }
+  
+  .nossa-histria-cpia .ellipse-3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 25px;
+    left: 24px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    box-shadow: inset 0px 4px 4px #0000001a, 0px 4px 4px #00000040;
+  }
+  
+  .nossa-histria-cpia .polygon {
+    top: 869px;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left: 59px;
+  }
+  
+  .nossa-histria-cpia .logo-2 {
+    position: absolute;
+    width: 179px;
+    height: 75px;
+    top: 84px;
+    left: 36px;
+  }
+  
+  .nossa-histria-cpia .vector-4 {
+    top: 11px;
+    left: 66px;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .nossa-histria-cpia .vector-5 {
+    top: 35px;
+    left: 41px;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .nossa-histria-cpia .vector-6 {
+    top: 65px;
+    left: 154px;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .nossa-histria-cpia .polygon-2 {
+    top: 344px;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left: 59px;
+  }
+  
+  .nossa-histria-cpia .polygon-3 {
+    top: 515px;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left: 59px;
+  }
+  
+  .nossa-histria-cpia .polygon-4 {
+    top: 687px;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left: 59px;
+  }
+  
+  .nossa-histria-cpia .polygon-5 {
+    top: 1059px;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left: 59px;
+  }
+  
+  .nossa-histria-cpia .polygon-6 {
+    top: 1232px;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left: 59px;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-3 {
+    position: absolute;
+    top: 359px;
+    left: 78px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-4 {
+    top: 531px;
+    left: 75px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-5 {
+    top: 702px;
+    left: 78px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-6 {
+    top: 885px;
+    left: 77px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-7 {
+    top: 1074px;
+    left: 76px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-8 {
+    top: 1246px;
+    left: 76px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .p {
+    position: absolute;
+    width: 938px;
+    top: 320px;
+    left: 8px;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-9 {
+    position: absolute;
+    width: 938px;
+    top: 503px;
+    left: 0;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .overlap-6 {
+    position: absolute;
+    width: 938px;
+    height: 149px;
+    top: 674px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-10 {
+    position: absolute;
+    width: 938px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-11 {
+    position: absolute;
+    width: 261px;
+    top: 120px;
+    left: 397px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #93221f;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .nossa-histria-cpia .com-a-nova-parceria {
+    position: absolute;
+    width: 938px;
+    top: 847px;
+    left: 0;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .overlap-7 {
+    position: absolute;
+    width: 944px;
+    height: 169px;
+    top: 1026px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-12 {
+    position: absolute;
+    width: 944px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-13 {
+    position: absolute;
+    width: 125px;
+    top: 140px;
+    left: 416px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #93221f;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-14 {
+    position: absolute;
+    width: 950px;
+    top: 1216px;
+    left: 0;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .line-17 {
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    top: 342px;
+    left: 347px;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-15 {
+    position: absolute;
+    width: 135px;
+    top: 306px;
+    left: 385px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #93221f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .nossa-histria-cpia .div-wrapper {
+    position: absolute;
+    width: 226px;
+    height: 100px;
+    top: 136px;
+    left: 313px;
+    background-color: #93221f;
+    border-radius: 90px;
+    box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-16 {
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .nossa-histria-cpia .overlap-8 {
+    position: absolute;
+    width: 226px;
+    height: 100px;
+    top: 136px;
+    left: 612px;
+    background-color: #93221f;
+    border-radius: 90px;
+    box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-17 {
+    position: absolute;
+    top: 35px;
+    left: 14px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .nossa-histria-cpia .overlap-9 {
+    position: absolute;
+    width: 226px;
+    height: 100px;
+    top: 134px;
+    left: 18px;
+    background-color: #93221f;
+    border-radius: 90px;
+    box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-18 {
+    position: absolute;
+    width: 154px;
+    top: 36px;
+    left: 41px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .nossa-histria-cpia .overlap-10 {
+    position: absolute;
+    width: 221px;
+    height: 48px;
+    top: 493px;
+    left: 349px;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-19 {
+    position: absolute;
+    width: 203px;
+    top: 0;
+    left: 18px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #93221f;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .line-18 {
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    top: 42px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .overlap-11 {
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    top: 658px;
+    left: 318px;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-20 {
+    position: absolute;
+    width: 261px;
+    top: 0;
+    left: 14px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #93221f;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .line-19 {
+    position: absolute;
+    width: 280px;
+    height: 3px;
+    top: 40px;
+    left: 0;
+  }
+  
+  .nossa-histria-cpia .line-20 {
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    top: 874px;
+    left: 366px;
+  }
+  
+  .nossa-histria-cpia .line-21 {
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    top: 1246px;
+    left: 376px;
+  }
+  
+  .nossa-histria-cpia .text-wrapper-21 {
+    position: absolute;
+    top: 0;
+    left: 116px;
+    font-family: "Hammersmith One-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 85px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nossa-histria-cpia .rectangle-98 {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    top: 1881px;
+    left: 1129px;
+    background-color: #ff4c00;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-99 {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    top: 1869px;
+    left: 1129px;
+    background-color: #ff8103;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-100 {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    top: 1857px;
+    left: 1129px;
+    background-color: #ffa100;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .rectangle-101 {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 1893px;
+    left: 1129px;
+    background-color: #ff0600;
+    border-radius: 90px;
+  }
+  
+  .nossa-histria-cpia .music-note {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 4279px;
+    left: -13549px;
+  }
+  
+  .nossa-histria-cpia .music {
+    position: absolute;
+    width: 70px;
+    height: 76px;
+    top: 1715px;
+    left: 73px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px dashed;
+    border-color: #9747ff;
+  }
+  
+  .nossa-histria-cpia .property {
+    position: relative;
+    width: 30px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .nossa-histria-cpia .music-2 {
+    top: 758px;
+    left: -13725px;
+    position: absolute;
+    width: 30px;
+    height: 40px;
+  }
+  
+  .nossa-histria-cpia .music-variant {
+    top: 1850px;
+    left: 93px;
+    position: absolute;
+    width: 30px;
+    height: 40px;
+  }
+  
+  .nossa-histria-cpia .music-3 {
+    top: 643px;
+    left: -13725px;
+    position: absolute;
+    width: 30px;
+    height: 40px;
+  }
+  
